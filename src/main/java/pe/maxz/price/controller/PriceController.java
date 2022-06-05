@@ -1,4 +1,4 @@
-package pe.intercorp.precio.controller;
+package pe.maxz.price.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
-import pe.intercorp.precio.entity.Price;
-import pe.intercorp.precio.repository.PriceRepositoryJdbc;
+import pe.maxz.price.entity.Price;
+import pe.maxz.price.repository.PriceRepositoryJdbc;
 
 @RestController
 @RequestMapping("/price/api/v1")

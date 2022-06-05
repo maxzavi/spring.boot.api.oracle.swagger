@@ -1,4 +1,4 @@
-package pe.intercorp.precio.repository;
+package pe.maxz.price.repository;
 
 import java.sql.ResultSet;
 import java.sql.Types;
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import pe.intercorp.precio.entity.Price;
-import pe.intercorp.precio.entity.Product;
-import pe.intercorp.precio.entity.StorePrice;
+import pe.maxz.price.entity.Price;
+import pe.maxz.price.entity.Product;
+import pe.maxz.price.entity.StorePrice;
 
 @Repository
 public class PriceRepositoryJdbc {

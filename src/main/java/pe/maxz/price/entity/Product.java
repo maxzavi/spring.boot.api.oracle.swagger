@@ -1,4 +1,4 @@
-package pe.intercorp.precio.entity;
+package pe.maxz.price.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
