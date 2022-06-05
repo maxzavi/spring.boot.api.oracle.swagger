@@ -59,7 +59,7 @@ view in http://localhost:8080/swagger-ui/index.html
 In main class, use **OpenAPIDefinition** annotation
 
 ```java
-@OpenAPIDefinition(info = @Info(title = "Price API Intercorp", version = "1.0.0"))
+@OpenAPIDefinition(info = @Info(title = "Price API", version = "1.0.0"))
 public class PrecioApplication {
 ```
 
